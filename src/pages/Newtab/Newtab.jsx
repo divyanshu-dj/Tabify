@@ -8,7 +8,7 @@ const Newtab = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-blue-300">
           Edit <code>src/pages/Newtab/Newtab.js</code> and save to reload.
         </p>
         <a
@@ -19,7 +19,9 @@ const Newtab = () => {
         >
           Learn React!
         </a>
-        <h6>The color of this paragraph is defined using SASS.</h6>
+        <h6 className="font-bold">
+          The color of this paragraph is defined using SASS.
+        </h6>
       </header>
     </div>
   );
